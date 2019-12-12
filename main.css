@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+ 
+/*Header*/          
+
+.main-header {
+  background-color: #333333;
+  width: 100%;
+
+}
+
+.container {
+	width: 960px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.text {
+  margin: 0 0 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+h1 a {
+  color: #C0BAB6;
+  text-decoration: none;
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  color: #C0BAB6;
+  font-size: 13px;
+  margin: 0;
+}
+
+.main-nav {
+  background-color: #232323;
+}
+
+.main-nav ul {
+  padding: 0 20px;
+  
+}
+
+.main-nav li {
+  display: inline;
+  text-transform: uppercase;
+  margin: 0 10px;
+  
+}
+
+.main-nav a {
+	display: inline-block;
+  text-decoration: none;
+  color: #C0BAB6;
+}
+
+/* slider */
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* 1 section */
+
+.column-container {
+  display: flex;
+  justify-content: center;
+  line-height: 1.8em;
+}
+
+.pages {
+  padding: 0 59px;
+}
+
+.pages h3 {
+  font-size: 14px;
+  margin: 0;
+}
+.pages p {
+  font-size: 13px;
+}
+.pages a {
+  text-align: right;
+  display: block;
+  color: #FF9900;
+  text-decoration: none;
+}
+
+/* 2 section */
+
+.column-container2 {
+  display: flex;
+  justify-content: center;
+  line-height: 1.8em;
+  margin-top: 20px;
+}
+
+.left-side {
+  padding-right: 60px;
+}
+
+.left-side h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: normal;
+}
+
+.left-side p {
+  font-size: 13px;
+}
+
+.left-side a {
+  text-align: right;
+  color: #FF9900;
+}
+
+ /* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  font-size: 12px;
+  line-height: 1.4em;
+  color: #989898;
+  background-color: #333333;
+  margin-top: 30px;
+}
+
+.part_one {
+  width: 225px;
+  margin: 0 20px 0 0;
+}
+
+.part_one h5 {
+  color: #FFFFFF;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0 40px;
+}
+
+.part_one ul {
+  list-style: none;
+}
+
+.part_one li {
+  margin: 0 0 5px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #555555;
+}
+
+.part_one li a {
+  color: #FF9900;
+  font-size: 12px;
+  text-decoration: none;
+}
